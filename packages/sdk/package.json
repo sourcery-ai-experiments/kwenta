@@ -65,7 +65,7 @@
 		"codegen-graph-ts": "^0.1.4",
 		"date-fns": "^2.30.0",
 		"ethcall": "5.0.1",
-		"ethers": "^5.7.2",
+		"ethers": "^6.11.1",
 		"graphql-request": "^6.1.0",
 		"lodash": "^4.17.21",
 		"moment": "^2.29.4"
