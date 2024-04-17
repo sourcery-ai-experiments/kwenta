@@ -100,7 +100,7 @@ importers:
         version: 7.61.1
       '@socket.tech/plugin':
         specifier: 1.2.1
-        version: 1.2.1(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+        version: 1.2.1(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.1)
       '@synthetixio/optimism-networks':
         specifier: 2.74.6
         version: 2.74.6
@@ -187,7 +187,7 @@ importers:
         version: 3.39.3(react-dom@18.2.0)(react@18.2.0)
       react-redux:
         specifier: 9.1.0
-        version: 9.1.0(@types/react@18.2.22)(react@18.2.0)(redux@4.2.1)
+        version: 9.1.0(@types/react@18.2.22)(react@18.2.0)(redux@5.0.1)
       react-responsive:
         specifier: ^9.0.2
         version: 9.0.2(react@18.2.0)
@@ -211,7 +211,7 @@ importers:
         version: 3.0.6
       redux-persist:
         specifier: ^6.0.0
-        version: 6.0.0(react@18.2.0)(redux@4.2.1)
+        version: 6.0.0(react@18.2.0)(redux@5.0.1)
       slick-carousel:
         specifier: 1.8.1
         version: 1.8.1(jquery@3.7.0)
@@ -298,8 +298,8 @@ importers:
         specifier: 0.23.10
         version: 0.23.10
       '@types/redux-logger':
-        specifier: ^3.0.12
-        version: 3.0.12
+        specifier: ^3.0.13
+        version: 3.0.13
       '@types/styled-components':
         specifier: 5.1.27
         version: 5.1.27
@@ -5997,7 +5997,7 @@ packages:
     dependencies:
       immer: 9.0.21
       react: 18.2.0
-      react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.1)
       redux: 4.2.1
       redux-thunk: 2.4.2(redux@4.2.1)
       reselect: 4.1.8
@@ -6016,7 +6016,7 @@ packages:
     dependencies:
       immer: 9.0.21
       react: 18.2.0
-      react-redux: 9.1.0(@types/react@18.2.22)(react@18.2.0)(redux@4.2.1)
+      react-redux: 9.1.0(@types/react@18.2.22)(react@18.2.0)(redux@5.0.1)
       redux: 4.2.1
       redux-thunk: 2.4.2(redux@4.2.1)
       reselect: 4.1.8
@@ -6174,7 +6174,7 @@ packages:
     resolution: {integrity: sha512-kSQpArl54ja107ke2C1jJCZzkllGzkXZVB+OSjcqOz9eMzr4Ffw2zYxqYfLrfxAPsQmxIc1FvCNtD70mLJZWFw==}
     dev: false
 
-  /@socket.tech/plugin@1.2.1(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1):
+  /@socket.tech/plugin@1.2.1(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-Eh/bsEGITAb5587VIlTkcHk8SvrRX5S0d+hDUrqesDc1biNUH1pVTEBfPuYju7dLdJYJnepqndj+5I/qEHcx2A==}
     peerDependencies:
       react: '>=17.0.1'
@@ -6189,7 +6189,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-feather: 2.0.10(react@18.2.0)
-      react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
+      react-redux: 8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.1)
       swr: 1.3.0(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
@@ -8236,10 +8236,10 @@ packages:
       '@types/scheduler': 0.16.3
       csstype: 3.1.2
 
-  /@types/redux-logger@3.0.12:
-    resolution: {integrity: sha512-5vAlwokZi/Unb1eGoZfVVzIBTPNDflwXiDzPLT1SynP6hdJfsOEf+w6ZOySOyboLWciCRYeE5DGYUnwVCq+Uyg==}
+  /@types/redux-logger@3.0.13:
+    resolution: {integrity: sha512-jylqZXQfMxahkuPcO8J12AKSSCQngdEWQrw7UiLUJzMBcv1r4Qg77P6mjGLjM27e5gFQDPD8vwUMJ9AyVxFSsg==}
     dependencies:
-      redux: 4.2.1
+      redux: 5.0.1
     dev: true
 
   /@types/responselike@1.0.0:
@@ -17056,7 +17056,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-redux@8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1):
+  /react-redux@8.1.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-xJKYI189VwfsFc4CJvHqHlDrzyFTY/3vZACbE+rr/zQ34Xx1wQfB4OTOSeOSNrF6BDVe8OOdxIrAnMGXA3ggfw==}
     peerDependencies:
       '@types/react': ^16.8 || ^17.0 || ^18.0
@@ -17086,11 +17086,11 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-is: 18.2.0
-      redux: 4.2.1
+      redux: 5.0.1
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /react-redux@9.1.0(@types/react@18.2.22)(react@18.2.0)(redux@4.2.1):
+  /react-redux@9.1.0(@types/react@18.2.22)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-6qoDzIO+gbrza8h3hjMA9aq4nwVFCKFtY2iLxCtVT38Swyy2C/dJCGBXHeHLtx6qlg/8qzc2MrhOeduf5K32wQ==}
     peerDependencies:
       '@types/react': ^18.2.25
@@ -17108,7 +17108,7 @@ packages:
       '@types/react': 18.2.22
       '@types/use-sync-external-store': 0.0.3
       react: 18.2.0
-      redux: 4.2.1
+      redux: 5.0.1
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
@@ -17489,7 +17489,7 @@ packages:
       deep-diff: 0.3.8
     dev: false
 
-  /redux-persist@6.0.0(react@18.2.0)(redux@4.2.1):
+  /redux-persist@6.0.0(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-71LLMbUq2r02ng2We9S215LtPu3fY0KgaGE0k8WRgl6RkqxtGfl7HUozz1Dftwsb0D/5mZ8dwAaPbtnzfvbEwQ==}
     peerDependencies:
       react: '>=16'
@@ -17499,7 +17499,7 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      redux: 4.2.1
+      redux: 5.0.1
     dev: false
 
   /redux-thunk@2.4.2(redux@4.2.1):
@@ -17514,6 +17514,10 @@ packages:
     resolution: {integrity: sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==}
     dependencies:
       '@babel/runtime': 7.24.4
+    dev: false
+
+  /redux@5.0.1:
+    resolution: {integrity: sha512-M9/ELqF6fy8FwmkpnF0S3YKOqMyoWJ4+CS5Efg2ct3oY9daQvd/Pc71FpGZsVsbl3Cpb+IIcjBDUnnyBdQbq4w==}
 
   /reflect.getprototypeof@1.0.3:
     resolution: {integrity: sha512-TTAOZpkJ2YLxl7mVHWrNo3iDMEkYlva/kgFcXndqMgbo/AZUmmavEkdXV+hXtE4P8xdyEKRzalaFqZVuwIk/Nw==}
